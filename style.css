@@ -1,0 +1,263 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+header{
+    background: url("images/fon.jpg") no-repeat center top;
+    height: 600px;
+    color: #ffffff;
+    padding-top: 70px;
+}
+.blog{
+    font-size: 14px;
+}
+.offer{
+    margin-top: 180px;
+    padding-bottom: 100px;
+    margin-right: 310px;
+}
+.line{
+    border-left: 1.5px solid #fff;
+    height: 65px;
+    padding-left: 40px;
+}
+.circle{
+    width: 30px;
+	height: 30px;
+	background: #fff;
+	border-radius: 50px;
+}
+.review{
+    font-size: 14px;
+    display: flex;
+   align-items: center;
+}
+.author{
+    margin-left: 35px;
+    margin-top: 5px;
+}
+.time{
+    margin-left: 60px;
+    margin-top: 5px;
+}
+.time img{
+    padding-right: 17px;
+}
+.views{
+    margin-left: 60px;
+    margin-top: 5px;
+}
+.views img{
+    padding-right: 17px;
+}
+.rating{
+    margin-left: 80px;
+    margin-top: 5px;
+}
+.data{
+    opacity: 0.5;
+    margin-left: 230px;
+}
+.two{
+    font-size: 60px;
+}
+.month_year{
+    font-size: 21px;
+    border-spacing: 0;
+}
+.sidebar{
+    font-size: 16px;
+    float: right;
+}
+.topic{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.sidebar_cat{
+    margin-bottom: 65px;
+    box-shadow: 5px 5px 20px 7px rgba(221, 221, 221,0.5);
+     width: 190px;
+    height: 180px;
+    padding: 50px;
+    border-radius: 7px;
+}
+.sidebar_blog p{
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.blog{
+    padding-top: 10px;
+}
+.sidebar_blog{
+    margin-bottom: 65px;
+    box-shadow: 5px 5px 20px 7px rgba(221, 221, 221,0.5);
+     width: 190px;
+    height: 180px;
+    padding: 50px;
+    border-radius: 7px;
+}
+.sidebar_pop{
+    margin-bottom: 65px;
+    box-shadow: 5px 5px 20px 7px rgba(221, 221, 221,0.5);
+     width: 190px;
+    height: 350px;
+    padding: 50px;
+    border-radius: 7px;
+}
+.topic font{
+    color: #dddddd;
+    padding-left: 16px;
+}
+.img_left{
+     font-size: 13px;
+}
+.img_left img{
+   float: left;
+   margin: 6px 13px;
+}
+span{
+    color: #b6b6b6;
+}
+mark{
+    background: #e7e7e7;
+    padding: 5px;
+    border-radius: 3px;
+}
+.sidebar_revise{
+    margin-bottom: 65px;
+    box-shadow: 5px 5px 20px 7px rgba(221, 221, 221,0.5);
+    border-radius: 3px;
+}
+.revise_text{
+    padding: 50px;
+    width: 190px;
+    height: 135px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.revise_text a{
+    font-size: 16px;
+    color: #cd2638;
+    text-decoration: none;
+}
+hr{
+    width: 190px;
+}
+.content{
+    width: 780px;
+}
+.content_text p{
+    font-size: 16px;
+}
+.colortext{
+    color: #ac162c;
+}
+.content_text{
+    margin-bottom: 60px;
+}
+.line_red{
+    border-left: 1.5px solid #ac162c;
+    height: 60px;
+    padding-left: 23px;
+}
+.headline{
+    font-size: 25px;
+    margin-bottom: 60px;
+    font-weight: 700;
+}
+.text{
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.img{
+    margin-bottom: 60px;
+}
+h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.text_list{
+    margin-top: 55px;
+    margin-bottom: 60px;
+}
+ul{
+    list-style-image: url("images/square.png");
+    padding: 0;
+   margin-left: 20px;
+    margin-bottom: 40px;
+}
+li{
+    line-height: 3em;
+    font-size: 16px;
+    padding-left: 15px;
+}
+.scroll b{
+    font-size: 20px;
+    font-weight: 700;
+}
+.scroll{
+    margin-bottom: 60px;
+}
+.line_small{
+    border-left: 1.5px solid #ac162c;
+    height: 25px;
+    padding-left: 23px;
+}
+.headline_price{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 75px;
+}
+.price_img{
+    margin-bottom: 60px;
+}
+.sum b{
+    font-size: 20px;
+    font-weight: 700;
+}
+.sum_sked ul{
+    list-style-image: url("images/circle3.png");
+    padding: 0;
+   margin-left: 60px;
+    margin-bottom: 45px;
+}
+.text_bold p{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.mark{
+   line-height: 1em;
+    padding-top: 20px;
+}
+
+.footer_text{
+    display: flex;
+    font-size: 14px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    align-items: center;
+}
+.footer-item{
+    padding-right: 25px
+}
+.footer-social{
+    margin-left: 445px;
+}
+.footer-icon{
+    margin-left: 35px;   
+}
+.footer_img{
+    margin-bottom: 35px;   
+}
