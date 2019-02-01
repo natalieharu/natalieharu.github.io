@@ -1,0 +1,303 @@
+@font-face {
+    font-family: 'Jaapokkisubtract';
+    src: url('../fonts/JaapokkisubtractRegular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/JaapokkisubtractRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/JaapokkisubtractRegular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/JaapokkisubtractRegular.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/JaapokkisubtractRegular.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/JaapokkisubtractRegular#svgFontName') format('svg'); /* Legacy iOS */
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #0001c5;
+    letter-spacing: 0.06em;
+}
+.container{
+    margin: 0 7%;
+    position: relative;
+}
+div, p, span, a, input, button{
+    box-sizing: border-box;
+}
+p{
+    line-height: 1.7em;
+}
+.jpk-font{
+    font-family: 'Jaapokkisubtract', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Jaapokkisubtract', sans-serif;
+    letter-spacing: 0.14em;
+    font-weight: normal;
+    line-height: 1.2em;
+}
+h2{
+    letter-spacing: 0.04em;
+    margin: 0;
+}
+h3{
+    letter-spacing: 0.03em;
+    
+}
+.btn{
+    font-family: 'Jaapokkisubtract', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    background: transparent;
+    border: 3px solid #fff;
+    cursor: pointer;
+    padding: 17px 0;
+    width: 217px;
+    transition: all 0.3s ease;
+}
+.btn:hover{
+    background: #fff;
+    color: #0001c5;
+}
+.header{
+    background: #0406bd url(../img/first_bg.jpg) no-repeat center bottom /cover;
+    color: #fff;
+    height: 100vh;
+    box-shadow: 0 40px 190px rgba(33,48,99,0.4);
+}
+.header .container{
+    height: 100vh;
+    
+}
+.logo{
+    width: 48px;
+    height: 48px;
+    background: #fff;
+    color: #0000a0;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 48px;
+    display: block;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    position: absolute;
+    top: 8%;
+}
+.logo:hover{
+    border-radius: 8px;
+}
+.brah{
+    background: #fff;
+    font-size: 18px;
+    color: #0304b9;
+    height: 184px;
+    width: 41px;
+    padding: 10px 15px;
+    position: absolute;
+    left: 60%;
+    top: 0;
+    line-height: 1.5em;
+    
+}
+.hamburger{
+    width: 40px;
+    position: absolute;
+    right: 0;
+    top: 8%;
+    float: right;
+    cursor: pointer;      
+}
+.hamburger span{
+    background: #fff;
+    display: block;
+    height: 2px;
+    margin-bottom: 6px;
+    float: right;
+    width: 100%;
+}
+.hamburger span:nth-child(1){
+    
+}
+.hamburger span:nth-child(2){
+    width: 75%;
+}
+.hamburger span:nth-child(3){
+    width: 50%;
+}
+.hamburger:hover span{
+    float: left;
+}
+.offer{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -250px;
+}
+.offer_bg{
+    font-size: 300px;
+    color: #1b1cc4;
+    position: absolute;
+}
+.offer_title{
+    font-size: 55px;
+    position: relative;
+    width: 561px;
+    margin-top: 110px;
+    margin-left: 134px;
+    
+}
+.offer_title:after{
+    content: '';
+    display: block;
+    background: #fff;
+    width: 29px;
+    height: 5px;
+    position: absolute;
+    right: 180px;
+    top: -20px;
+}
+.offer_text{
+    font-size: 17px;
+    width: 337px;
+    margin-top: 40px;
+    margin-left: 216px;
+}
+.offer_btn{
+    margin-left: 350px;
+    margin-top: 45px;
+}
+.next{
+    font-size: 300px;
+    width: 363px;
+    position: absolute;
+    left: 65%; 
+    top: 50%;
+    margin-top: -180px;
+    line-height: 0;
+    text-shadow: 15px 15px 0 #0309a1;
+}
+.next span{
+    margin-right: -70px;
+    line-height: 0.7em;
+}
+.next span:nth-child(2){
+    color: #0048ff;
+}
+.scroll{
+    display: block;
+    font-size: 22px;
+    border-right: 3px solid #fff;
+    height: 135px;
+    padding-right: 40px;
+    padding-top: 20px;
+    color: #fff;
+    width: 100px;
+    text-decoration: none;
+    position: absolute;
+    right: 5%;
+    bottom: 0;
+    transition: all 0.3s ease;
+}
+.scroll:hover{
+    background: #fff;
+    color: #0000a0;
+}
+.services{
+    padding-top: 166px;
+}
+.section_title{
+    
+}
+.section_title_intro{
+    font-family: 'Jaapokkisubtract', sans-serif;
+    color: #a8a8e4;
+    font-size: 23px;
+    margin: 0;
+}
+.section_title_title{
+    font-size: 85px;
+    margin-left: 50px;
+    position: relative;
+}
+.section_title_title:after{
+    content: '';
+    display: inline-block;
+    background: #1e1fec;
+    width: 29px;
+    height: 5px;
+    margin-bottom: -15px;
+}
+.service{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+.service_item{
+    width: 20%;
+    border: 4px solid #0001c5;
+    display: block;
+    padding-left: 53px;
+    padding-top: 60px;
+    padding-bottom: 120px;
+    position: relative;
+}
+.service_icon{
+    font-size: 48px;
+    margin-bottom: 45px;
+    display: block;
+}
+.service_title{
+    font-size: 26px;
+}
+.service_more{
+    font-size: 31px;
+    width: 38px;
+    height: 37px;
+    background: #0001c5;
+    color: #fff;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.service_index{
+    position: absolute;
+    font-family: 'Jaapokkisubtract', sans-serif;
+    font-size: 23px;
+    color: #a8a8e4;
+    left: -55px;
+    top: 30px;
+}
+.service_item:hover{
+    background: #0001c5;
+    color: #fff;
+    box-shadow: 12px 12px 65px rgba(0,1,197,0.45);
+}
+.service_more:hover{
+   background: #fff;
+   color: #0001c5;
+}
+.footer{
+    background: #ededf8;
+    padding: 160px 0;
+}
+.credits{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.credits_logo{
+    background: #0001c5;
+    color: #fff;
+    position: relative;
+    top: auto;
+}
+.credits_btn{
+    color: #0001c5;
+    border: 3px solid #0001c5;
+    font-size: 17px;
+    padding: 13px 0;
+    width: 172px;
+}
+.credits_up{
+    text-decoration: none;
+}
