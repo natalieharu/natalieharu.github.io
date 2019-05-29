@@ -120,7 +120,7 @@ button, button:hover, button:focus, button:active{
     text-decoration: none;
 }
 .nav-item a:hover {
- color: #e84545;
+ color: rgba(232,69,69,1);
 }
 .with-indicator {
   position: relative;
