@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Занятие 9</title>
+    <meta name="description" content="Описание страницы">
+	<meta name="keywords" content="ключевые, слова, через, запятую">
+	<!-- Favicon -->
+	<link rel="icon" href="#" type="#">
+ 	<link rel="shortcut icon" href="#" type="#"> 
+	<!-- OG Tags -->
+	<meta property="og:title" content="БОЛЬШОЕ ПРАКТИЧЕСКОЕ ЗАНЯТИЕ">
+	<meta property="og:description" content="В этом занятии мы продолжим изучение CSS. Я покажу многие фишки, полезные приемы и инструменты для создания современной верстки любой веб-страницы.">
+	<meta property="og:type" content="article">
+	<meta property="og:image" content="#" >
+	<meta property="og:site_name" content="TEST">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <header id="header" class="header">
+       <div class="container">
+           <div class="row">
+               <div class="col-lg-3">
+                   <a href="" class="logo">
+                       ACTIVE
+                       <span>
+                           LIVE
+                       </span>
+                   </a>
+               </div>
+               <div class="col-lg-6 ml-auto">
+                   <nav>
+                       <ul class="nav with-indicator d-flex justify-content-between">
+                           <li class="nav-item one is-active">
+                               <a href="">
+                                   Main  
+                               </a>
+                           </li>
+                           <li class="nav-item two">
+                               <a href="">
+                                   Features   
+                               </a>
+                           </li>
+                           <li class="nav-item three">
+                               <a href="">
+                                   Gallery 
+                               </a>
+                           </li>
+                           <li class="nav-item four">
+                               <a href="">
+                                   Team  
+                               </a>
+                           </li>
+                           <li class="nav-item five">
+                               <a href="">
+                                   Contacts 
+                               </a>
+                           </li>                          
+                       </ul>
+                   </nav>
+               </div>
+               <div class="col-lg-12">
+                   <div class="line"></div>
+               </div>
+           </div>
+           <div class="row">
+               <div class="col-12">
+                   <div class="offer">
+                       <h1 class="offer__title">
+                           THE WORLD WITHOUt LIMITATIONS
+                       </h1>
+                       <p class="offer__text">
+                           Active Live - this is the way to keep track of all of your<br> activities, flights and business trips
+                       </p>
+                       <button class="offer__btn">
+                           Find Out More
+                       </button>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </header>
+   <section id="feature" class="feature">
+       <div class="container">
+           <div class="row">
+               <div class="col-md-6 col-lg-4">
+                  <div class="scope">
+                       <img src="img/icon1.png" alt="Easily Customised" class="scope__img">
+                       <h3 class="scope__title">
+                           Easily Customised
+                       </h3>
+                       <p class="scope__text">
+                           Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo
+                       </p>
+                   </div>
+               </div>
+               <div class="col-md-6 col-lg-4">
+                  <div class="scope">
+                       <img src="img/icon2.png" alt="Easily Customised" class="scope__img">
+                       <h3 class="scope__title">
+                           READY TO USE
+                       </h3>
+                       <p class="scope__text">
+                           Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo
+                       </p>
+                   </div>
+               </div>
+               <div class="col-md-6 col-lg-4">
+                  <div class="scope">
+                       <img src="img/icon3.png" alt="Easily Customised" class="scope__img">
+                       <h3 class="scope__title">
+                           FULL OF IDEAS FOR YOU
+                       </h3>
+                       <p class="scope__text">
+                           Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo
+                       </p>
+                   </div>
+               </div>
+               <div class="col-md-6 col-lg-4">
+                  <div class="scope">
+                       <img src="img/icon4.png" alt="Easily Customised" class="scope__img">
+                       <h3 class="scope__title">
+                           SMART AI INSIDE
+                       </h3>
+                       <p class="scope__text">
+                           Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo
+                       </p>
+                   </div>
+               </div>
+               <div class="col-md-6 col-lg-4">
+                  <div class="scope">
+                       <img src="img/icon5.png" alt="Easily Customised" class="scope__img">
+                       <h3 class="scope__title">
+                           PERFECT FOR BUSINESS
+                       </h3>
+                       <p class="scope__text">
+                           Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo
+                       </p>
+                   </div>
+               </div>
+               <div class="col-md-6 col-lg-4">
+                  <div class="scope">
+                       <img src="img/icon6.png" alt="Easily Customised" class="scope__img">
+                       <h3 class="scope__title">
+                           FREE ACCESS
+                       </h3>
+                       <p class="scope__text">
+                           Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo
+                       </p>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+   <section id="project" class="project">
+       <div class="container">
+           <div class="row">
+               <div class="col-sm-6 col-md-4 col-lg-3">
+                  <div class="project__list">
+                       <img src="img/foto1.jpg" alt="" class="project__img">
+                       <div class="project__item">
+                          <div class="project__text">
+                               <h3 class="project__title">
+                                   Project Name
+                               </h3>
+                               <p class="project__add">
+                                   User Interface Design
+                               </p>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                  <div class="project__list">
+                       <img src="img/foto2.jpg" alt="" class="project__img">
+                       <div class="project__item">
+                          <div class="project__text">
+                               <h3 class="project__title">
+                                   Project Name
+                               </h3>
+                               <p class="project__add">
+                                   User Interface Design
+                               </p>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                  <div class="project__list">
+                       <img src="img/foto3.jpg" alt="" class="project__img">
+                       <div class="project__item">
+                          <div class="project__text">
+                               <h3 class="project__title">
+                                   Project Name
+                               </h3>
+                               <p class="project__add">
+                                   User Interface Design
+                               </p>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                  <div class="project__list">
+                       <img src="img/foto4.jpg" alt="" class="project__img">
+                       <div class="project__item">
+                          <div class="project__text">
+                               <h3 class="project__title">
+                                   Project Name
+                               </h3>
+                               <p class="project__add">
+                                   User Interface Design
+                               </p>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               <div class="col-sm-6 col-md-4 col-lg-3">
+                  <div class="project__list">
+                       <img src="img/foto5.jpg" alt="" class="project__img">
+                       <div class="project__item">
+                          <div class="project__text">
+                               <h3 class="project__title">
+                                   Project Name
+                               </h3>
+                               <p class="project__add">
+                                   User Interface Design
+                               </p>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                  <div class="project__list">
+                       <img src="img/foto6.jpg" alt="" class="project__img">
+                       <div class="project__item">
+                          <div class="project__text">
+                               <h3 class="project__title">
+                                   Project Name
+                               </h3>
+                               <p class="project__add">
+                                   User Interface Design
+                               </p>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                  <div class="project__list">
+                       <img src="img/foto7.jpg" alt="" class="project__img">
+                       <div class="project__item">
+                          <div class="project__text">
+                               <h3 class="project__title">
+                                   Project Name
+                               </h3>
+                               <p class="project__add">
+                                   User Interface Design
+                               </p>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                  <div class="project__list">
+                       <img src="img/foto8.jpg" alt="" class="project__img">
+                       <div class="project__item">
+                          <div class="project__text">
+                               <h3 class="project__title">
+                                   Project Name
+                               </h3>
+                               <p class="project__add">
+                                   User Interface Design
+                               </p>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section> 
+   <section id="team" class="team">
+       <div class="container">
+           <div class="row">
+              <div class="col-md-6 col-lg-3">
+                  <div class="team__item">
+                      <img src="img/women3.jpg" alt="Ruth Woods" class="team__img">
+                      <h2 class="team__name">
+                          Ruth Woods
+                      </h2>
+                      <p class="team__work">
+                          Founder, CEO
+                      </p>
+                      <p class="team__text">
+                          Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.
+                      </p>
+                      <a href="https://www.facebook.com" class="team__icon">
+                          <img src="img/Shape.png" alt="Facebook" class="icon__item">
+                      </a>
+                      <a href="https://twitter.com" class="team__icon">
+                          <img src="img/Shape1.png" alt="Twitter" class="icon__item">
+                      </a>
+                      <a href="https://www.linkedin.com/" class="team__icon">
+                          <img src="img/Shape2.png" alt="Linkedin" class="icon__item">
+                      </a>
+                  </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                  <div class="team__item">
+                      <img src="img/men.jpg" alt="Timothy Reed" class="team__img">
+                      <h2 class="team__name">
+                          Timothy Reed
+                      </h2>
+                      <p class="team__work">
+                          Co-Founder, Developer
+                      </p>
+                      <p class="team__text">
+                          Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.
+                      </p>
+                      <a href="https://www.facebook.com" class="team__icon">
+                          <img src="img/Shape.png" alt="Facebook" class="icon__item">
+                      </a>
+                      <a href="https://twitter.com" class="team__icon">
+                          <img src="img/Shape1.png" alt="Twitter" class="icon__item">
+                      </a>
+                      <a href="https://www.linkedin.com/" class="team__icon">
+                          <img src="img/Shape2.png" alt="Linkedin" class="icon__item">
+                      </a>
+                  </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                  <div class="team__item">
+                      <img src="img/women1.jpg" alt="Victoria Valdez" class="team__img">
+                      <h2 class="team__name">
+                          Victoria Valdez
+                      </h2>
+                      <p class="team__work">
+                          UI Designer
+                      </p>
+                      <p class="team__text">
+                          Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.
+                      </p>
+                      <a href="https://www.facebook.com" class="team__icon">
+                          <img src="img/Shape.png" alt="Facebook" class="icon__item">
+                      </a>
+                      <a href="https://twitter.com" class="team__icon">
+                          <img src="img/Shape1.png" alt="Twitter" class="icon__item">
+                      </a>
+                      <a href="https://www.linkedin.com/" class="team__icon">
+                          <img src="img/Shape2.png" alt="Linkedin" class="icon__item">
+                      </a>
+                  </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                  <div class="team__item">
+                      <img src="img/women2.jpg" alt="Beverly Little" class="team__img">
+                      <h2 class="team__name">
+                          Beverly Little
+                      </h2>
+                      <p class="team__work">
+                          Data Scientist
+                      </p>
+                      <p class="team__text">
+                          Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.
+                      </p>
+                      <a href="https://www.facebook.com" class="team__icon">
+                          <img src="img/Shape.png" alt="Facebook" class="icon__item">
+                      </a>
+                      <a href="https://twitter.com" class="team__icon">
+                          <img src="img/Shape1.png" alt="Twitter" class="icon__item">
+                      </a>
+                      <a href="https://www.linkedin.com/" class="team__icon">
+                          <img src="img/Shape2.png" alt="Linkedin" class="icon__item">
+                      </a>
+                  </div>
+              </div>
+           </div>
+       </div>
+   </section> 
+   <section id="wow" class="wow">
+       <div class="container-fluid container-fluid_plain">
+           <div class="row no-gutters">
+               <div class="col-12 col-lg-6">
+                   <div class="workspace"></div>
+               </div>
+               <div class="col-12 col-lg-6 d-flex">
+                   <div class="phrasing">
+                      <p class="phrasing__text">
+                           “Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”
+                      </p>
+                      <p class="phrasing__author">
+                          Susan Sims, Interaction Designer at XYZ
+                      </p>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section> 
+   <section id="start" class="start">
+       <div class="container">
+           <div class="row">
+               <div class="col-12">
+                   <h2 class="start__title">
+                        Are You Ready to Start? Download Now For Free!
+                   </h2>
+                   <p class="start__text">
+                        Fusce dapibus, tellus ac cursus commodo
+                   </p>
+                   <button class="stsrt__btn">
+                        Download Here
+                   </button>
+               </div>
+           </div>
+       </div>
+   </section>
+   <footer id="footer" class="footer">
+       <div class="container">
+           <div class="row">
+              <div class="col-12 col-lg-3">
+                  <h3 class="footer__title">
+                      Location
+                  </h3>
+                  <p class="footer__text footer__text_clear">
+                      3481 Melrose Place<br> Beverly Hills, CA 90210
+                  </p>
+              </div>
+              <div class="col-12 offset-lg-1 col-lg-4">
+                  <h3 class="footer__title">
+                      Share with Love
+                  </h3>
+                  <p class="footer__text">
+                      <span class="footer__text_gray">
+                          Copyright © 2015 ActiveBox. All Rights Reserved Made with
+                      </span> 
+                      <span class="footer__text_red">
+                          Y
+                      </span> 
+                      by Kamal Chaneman
+                  </p>
+              </div>
+               <div class="col-12 col-lg-4">
+                  <h3 class="footer__title">
+                      About ActiveBox
+                  </h3>
+                  <p class="footer__text footer__text_clear">
+                      Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla.
+                  </p>
+              </div>
+           </div>
+       </div>
+    </footer>
+</body>
+</html>
