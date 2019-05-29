@@ -1,0 +1,472 @@
+/* ------ Спецификация ------ */
+body{
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #000;
+    letter-spacing: 0.001em;
+}
+ul, li{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+div, p, form, input, a, span, button, i{
+    box-sizing: border-box;
+}
+ button:focus{
+    outline: none;
+}
+p{
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+h1, h2, h3, h4, h5 h6{
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+h1{
+    font-size: 45px;
+    margin-bottom: 35px;
+}
+h2{
+   font-size: 22px;
+}
+h3{
+    font-size: 14px;
+}
+a, a:hover, a:active{
+	text-decoration: none;
+}
+
+a, button, input{
+	transition: all 0.5s ease;
+}
+
+.d-flex{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+input, input:hover, input:focus, input:active,
+button, button:hover, button:focus, button:active{
+    outline: none;
+}
+
+.justify-content-between{
+	justify-content: space-between;
+}
+.align-items-center{
+	align-items: center;
+}
+.container-fluid_plain {
+	padding: 0;
+}
+
+/* ------ Первый экран ------ */
+.header{
+    background: #383141 url(../img/city.jpg) no-repeat center top / cover;
+    color: #fff;
+    padding: 35px 0 243px;
+}
+.logo{
+    font-size:30px;
+    font-weight: 700;
+    color: #626fe4;
+}
+.logo span{
+    color: #fff;
+    font-weight: 400;
+}
+.nav {
+  list-style: none;
+  max-width: 720px;
+  padding: 0;
+  width: 100%;
+}
+.line{
+    position: relative;
+    height: 1px;
+    background: #5d5b5c;
+}
+.nav-item {
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: calc(100%/5);
+  text-align: center;
+}
+.nav-item:first-child {
+  border-radius: 3px 0 0 3px;
+}
+.nav-item:last-child {
+  border-radius: 0 3px 3px 0;
+}
+
+.nav-item a {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    display: block;
+    color: #fff;
+    padding-top: 13px;
+    padding-bottom: 40px;
+    text-decoration: none;
+}
+.nav-item a:hover {
+ color: rgba(255,255,255, .6);
+}
+
+.with-indicator {
+  position: relative;
+  z-index: 0;
+}
+.with-indicator .nav-item:last-child:after {
+  content: '';
+  display: block;
+  position: absolute;
+  pointer-events: none;
+  transition: left 1.3s ease;
+}
+
+.with-indicator .nav-item:last-child:after {
+  background: rgba(255,255,255, .6);
+  bottom: -1px;
+  left: 0;
+  width: calc(100%/5);
+  height: 4px;
+  z-index: -1;
+}
+.with-indicator .nav-item:nth-child(1).is-active ~ .nav-item:last-child:after {
+  left: 0%;
+}
+
+.with-indicator .nav-item:nth-child(2).is-active ~ .nav-item:last-child:after {
+  left: 20%;
+}
+
+.with-indicator .nav-item:nth-child(3).is-active ~ .nav-item:last-child:after {
+  left: 40%;
+}
+
+.with-indicator .nav-item:nth-child(4).is-active ~ .nav-item:last-child:after {
+  left: 60%;
+}
+
+.with-indicator .nav-item:nth-child(5).is-active ~ .nav-item:last-child:after {
+  left: 80%;
+}
+
+.with-indicator .nav-item:nth-child(2):hover ~ .nav-item:last-child:after {
+  left: 20% !important;
+}
+
+.with-indicator .nav-item:nth-child(3):hover ~ .nav-item:last-child:after {
+  left: 40% !important;
+}
+
+.with-indicator .nav-item:nth-child(4):hover ~ .nav-item:last-child:after {
+  left: 60% !important;
+}
+
+.with-indicator .nav-item:last-child:hover:after, .with-indicator .nav-item:last-child.is-active:after {
+  left: 80% !important;
+}
+
+*, *:after {
+  box-sizing: border-box;
+}
+
+.nav:after {
+  content: " ";
+  display: table;
+	clear: both;
+}
+.offer{
+    text-align: center;
+    margin-top: 176px;
+}
+.offer__text{
+    font-size: 22px;
+    margin-bottom: 29px;
+    letter-spacing: 0.001em;
+
+}
+.offer__btn{
+    width: 200px;
+    height: 46px;
+    background: #e84545;
+    border: none;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.offer__btn:hover{
+    background: #fff;
+    color: #e84545;
+}
+
+/* ------ Второй экран ------ */
+
+.feature{
+    padding: 120px 0 53px;
+}
+.scope{
+    text-align: center;
+    padding-bottom: 60px;
+}
+.scope__img{
+    padding-bottom: 33px;
+}
+.scope__title{
+    margin-bottom: 8px;
+}
+.scope__text{
+    padding: 10px;
+}
+
+
+/* ------ Третий экран ------ */
+
+.project{
+    padding-bottom: 120px;
+}
+.project__item{
+    background: rgba(232,69,69,0.9);
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.project__list{
+    position: relative;
+    margin-bottom: 25px;
+    
+}
+.project__list:hover .project__item{
+    opacity: 1;
+}
+.project__img{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+.project__add{
+    text-transform: none;
+}
+
+
+/* ------ Четвертый экран ------ */
+
+.team{
+    padding: 125px 0 115px;
+    background: #f1f2fd;
+}
+.team__img{
+    margin-bottom: 28px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.team__name{
+    color: #2d3033;
+    margin-bottom: 7px;
+    text-transform: none;
+}
+.team__work{
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #e84545;
+    margin-bottom: 20px;
+}
+.team__text{
+    color: #6c7279;
+    margin-bottom: 27px;
+}
+.team__icon{
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #e8ecee;
+    display: inline-block;
+    text-align: center;
+    padding: 5px 0;
+}
+
+/* ------ Пятый экран ------ */
+
+.workspace{
+    background: url('../img/women.jpg') no-repeat center center;
+    height: 498px;
+}
+.phrasing{
+    background: #53354a;
+    color: #fff;
+    padding: 128px 0 144px;
+    padding-left: 70px;
+    width: 100%;
+}
+.phrasing__text{
+    font-size: 36px;
+    font-style: italic;
+    width: 500px;
+    line-height: 1.2em;
+    margin-bottom: 28px;
+    
+}
+.phrasing__author{
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+/* ------ Шестой экран ------ */
+
+.start{
+    padding: 94px 0 100px;
+    text-align: center;
+}
+.start__title{
+    font-size: 28px;
+    text-transform: none;
+    margin-bottom: 13px;
+}
+.start__text{
+    font-size: 13px;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+}
+.stsrt__btn{
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 280px;
+    height: 46px;
+    background: #e84545;
+    color: #fff;
+    border: none;
+}
+
+/* ------ Футер ------ */
+
+.footer{
+    padding: 80px 0 95px;
+    background: #3a3e64;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+.footer__title{
+    margin-bottom: 16px;
+}
+.footer__text_clear{
+    opacity: 0.5;
+}
+.footer__text_gray{
+  color: #808080;  
+}
+.footer__text_red{
+   color: #e84545; 
+}
+
+
+/* Media Queries */
+
+/* 992-1200px */
+@media screen and (max-width: 1200px) {
+    .phrasing{
+        padding-left: 50px;
+    }
+    .phrasing__text{
+        font-size: 30px;
+        width: 430px;
+    }
+}
+
+/* 768 - 992 px */
+@media screen and (max-width: 992px) {
+    .logo{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .team{
+        padding-bottom: 65px;
+    }
+    .team__icon{
+        margin-bottom: 50px;
+    }
+    .team__text{
+        margin-bottom: 20px;
+        
+    }
+    .workspace{
+        background-size: cover;
+    }
+    .phrasing{
+        text-align: center;
+        padding-left: 0;
+    }
+    .phrasing__text{
+        width: 100%;
+    }
+    .team__item{
+        text-align: center;
+    }
+    .footer{
+        padding: 70px 0 50px;
+    }
+    .footer__text br{
+        display: none;
+    }
+    .footer__text{
+        margin-bottom: 30px;
+    }
+    .footer__title {
+    margin-bottom: 5px;
+}
+
+/* 576 - 768 px */
+@media screen and (max-width: 768px) {
+    .offer__text{
+        font-size: 20px;
+    }
+    
+}
+
+/* 320 - 576 px */
+@media screen and (max-width: 576px) {
+    .header{
+        padding-bottom: 200px;
+    }
+    nav{
+        display: none;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .workspace{
+        background-position: -300px top;
+    }
+    .start__title{
+        font-size: 23px;
+    }
+    .project__list{
+        width: 263px;
+        margin: 0 auto 25px;
+    }
+}
