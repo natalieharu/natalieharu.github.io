@@ -120,7 +120,7 @@ button, button:hover, button:focus, button:active{
     text-decoration: none;
 }
 .nav-item a:hover {
- color: rgba(255,255,255, .6);
+ color: #e84545;
 }
 
 .with-indicator {
