@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Дипломная работа</title>
+    <meta name="description" content="Описание страницы">
+	<meta name="keywords" content="ключевые, слова, через, запятую">
+	<!-- Favicon -->
+	<link rel="icon" href="#" type="#">
+ 	<link rel="shortcut icon" href="#" type="#"> 
+	<!-- OG Tags -->
+	<meta property="og:title" content="BOOTSTRAP CSS В АКТИВНОЙ ПРАКТИКЕ">
+	<meta property="og:description" content="На этом занятии мы разберемся с CSS-частью популярной библиотеки Bootstrap4, чтобы научиться создавать еще более оптимизированные адаптивные сайты проще.">
+	<meta property="og:type" content="article">
+	<meta property="og:image" content="#" >
+	<meta property="og:site_name" content="TEST">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header id="header" class="header header-about">
+       <div class="container">
+           <div class="row">
+               <div class="col-12 col-sm-6 col-md-7 col-lg-3 col-xl-4">
+                   <a href="./index.html" class="logo">
+                       <img src="img/logo.png" alt="LAB Consulting" class="logo__img">
+                   </a>
+               </div>
+               <div class="col-lg-7 d-none d-lg-block col-xl-6 menu-collapse">
+                   <nav>
+                       <ul class="menu d-flex justify-content-between">
+                           <li class="menu__item">
+                               <a href="./about.html">
+                                   О компании  
+                               </a>
+                           </li>
+                           <li class="menu__item">
+                               <a href="#">
+                                   Пресс-центр   
+                               </a>
+                           </li>
+                           <li class="menu__item">
+                               <a href="./services.html">
+                                   Услуги 
+                               </a>
+                           </li>
+                           <li class="menu__item">
+                               <a href="#">
+                                   Отрасли  
+                               </a>
+                           </li>
+                           <li class="menu__item">
+                               <a href="./contacts.html">
+                                   Контакты
+                               </a>
+                           </li>                          
+                       </ul>
+                   </nav>
+               </div>
+               <div class="col-12 col-sm-5 col-md-4 col-lg-2">
+                   <button class="menu__btn btn btn-bell">
+                      <i class="fa fa-phone"></i>
+                       Заказать звонок
+                   </button>
+               </div>
+               <div class="col-5 col-sm-1 d-lg-none">
+                    <button class="menu-hamburger">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                </div>      
+           </div>
+           <div class="row">
+               <div class="col-md-12 col-lg-4 col-xl-3">
+                   <div class="offer-about">
+                       <h1 class="offer-about__title">
+                           О компании
+                       </h1>
+                       <div class="offer-about__add">
+                          <a href="./index.html" class="offer-about__link">
+                              Главная
+                          </a>
+                            &rarr; О компании
+                       </div>
+                   </div>
+               </div>
+               <div class="col-12 col-md-12 col-lg-8 ml-auto">
+                   <ul class="about-nav d-flex justify-content-between">
+                       <li class="about-nav__item">
+                           <a href="">
+                               Видение 
+                           </a>
+                       </li>
+                       <li class="about-nav__item">
+                           <a href="">
+                               Преимущества 
+                           </a>
+                       </li>
+                       <li class="about-nav__item">
+                           <a href="">
+                               Клиенты  
+                           </a>
+                       </li>
+                       <li class="about-nav__item">
+                           <a href="">
+                               Партнеры 
+                           </a>
+                       </li>
+                       <li class="about-nav__item">
+                           <a href="">
+                               Контакты 
+                           </a>
+                       </li>
+                   </ul>
+               </div>
+           </div>
+       </div>
+   </header>
+   <section id="plus" class="plus">
+       <div class="container">
+           <div class="row">
+               <div class="col-12">
+                   <h2 class="plus__title">
+                       Преимущества LAB Consult
+                   </h2>
+               </div>
+               <div class="col-12 col-lg-6">
+                   <p class="plus__text">
+                       Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia<br> consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
+                   </p>
+               </div>
+               <div class="col-12 col-lg-6">
+                   <p class="plus__text">
+                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat commodo consequat.
+                   </p>
+               </div>
+               <div class="col-12">
+                   <ul class="plus-list">
+                       <li class="plus-list__item">
+                           <img src="img/Scale.png" alt="Scale" class="plus-list__icon">
+                           <div class="plus-list__content">
+                           <h4 class="plus-list__title">
+                               Первое весомое преимущество
+                           </h4>
+                           <p class="plus-list_text">
+                               Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
+                           </p>
+                           </div>
+                       </li>
+                       <li class="plus-list__item">
+                           <img src="img/Scale.png" alt="Scale" class="plus-list__icon">
+                           <div class="plus-list__content">
+                           <h4 class="plus-list__title">
+                               Второе сильное и мощное преимущество
+                           </h4>
+                           <p class="plus-list_text">
+                               Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
+                           </p>
+                           </div>
+                       </li>
+                       <li class="plus-list__item">
+                           <img src="img/Scale.png" alt="Scale" class="plus-list__icon">
+                           <div class="plus-list__content">
+                           <h4 class="plus-list__title">
+                               Третье и финальное сильное и мощное преимущество
+                           </h4>
+                           <p class="plus-list_text">
+                               Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
+                           </p>
+                           </div>
+                       </li>
+                   </ul>
+               </div>
+           </div>
+       </div>
+   </section>
+   <section id="collection" class="collection">
+       <div class="container">
+           <div class="row">
+              <div class="col-12">
+                  <h2 class="collection__title">
+                      Фото наших мощностей
+                  </h2>
+              </div>
+              <div class="col-12">
+                  <div class="collection d-flex justify-content-between">
+                      <div class="collection__foto">
+                         <a href="img/foto1.jpg" data-lightbox="roadtrip" data-title="">
+                            <img src="img/foto1.jpg" alt="Car" class="car">
+                            <div class="collection__fon">
+                              <img src="img/arrow.png" alt="Arrow">
+                          </div>
+                          </a>
+                      </div>
+                      <div class="collection__foto">
+                          <a href="img/foto2.jpg" data-lightbox="roadtrip" data-title="">
+                            <img src="img/foto2.jpg" alt="Car" class="car">
+                             <div class="collection__fon">
+                              <img src="img/arrow.png" alt="Arrow">
+                          </div>
+                         </a>
+                      </div>
+                      <div class="collection__foto">
+                         <a href="img/foto3.jpg" data-lightbox="roadtrip" data-title="">
+                            <img src="img/foto3.jpg" alt="Car" class="car">
+                            <div class="collection__fon">
+                              <img src="img/arrow.png" alt="Arrow">
+                          </div>
+                         </a>
+                      </div>
+                      <div class="collection__foto">
+                          <a href="img/foto4.jpg" data-lightbox="roadtrip" data-title="">
+                            <img src="img/foto4.jpg" alt="Car" class="car">
+                            <div class="collection__fon">
+                              <img src="img/arrow.png" alt="Arrow">
+                          </div>
+                         </a>
+                      </div>
+                  </div>
+              </div>
+           </div>
+       </div>
+   </section>
+     <section id="info" class="info">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <h4 class="info__title">
+                        О компании
+                    </h4>
+                    <ul class="info__list">
+                       <li class="info__item">
+                           <a href="#" class="info__link">
+                               Видение, миссия и ценности
+                           </a>
+                       </li>
+                       <li class="info__item">
+                           <a href="#" class="info__link">
+                               Преимущества
+                           </a>
+                       </li>
+                       <li class="info__item">
+                           <a href="#" class="info__link">
+                               Клиенты
+                           </a>
+                       </li>
+                       <li class="info__item">
+                            <a href="#" class="info__link">
+                                Партнеры
+                            </a>
+                       </li>
+                       <li class="info__item">
+                           <a href="#" class="info__link">
+                               Контакты
+                           </a>
+                       </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <h4 class="info__title">
+                        Пресс – центр
+                    </h4>
+                    <ul class="info__list">
+                        <li class="info__item">
+                            <a href="#" class="info__link">
+                                Новости
+                            </a>
+                        </li>
+                        <li class="info__item">
+                            <a href="#" class="info__link">
+                                Публикации
+                            </a>
+                        </li>
+                        <li class="info__item">
+                            <a href="#" class="info__link">
+                                Мероприятия
+                            </a>
+                        </li>
+                        <li class="info__item">
+                            <a href="#" class="info__link">
+                                Консультация эксперта
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <h4 class="info__title">
+                        Услуги
+                    </h4>
+                    <ul class="info__list">
+                        <li class="info__item">
+                            <a href="#" class="info__link">
+                                Legal (Юридическое сопровождение)
+                            </a>
+                        </li>
+                        <li class="info__item">
+                           <a href="#" class="info__link">
+                               Accounting ( Финансовый аутсорсинг)
+                           </a> 
+                        </li>
+                        <li class="info__item">
+                            <a href="#" class="info__link">
+                                Business Consulting (Бизнес консалтинг)
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                 <div class="col-12 col-md-6 col-lg-4">
+                    <h4 class="info__title">
+                        Отрасли
+                    </h4>
+                    <ul class="info__list">
+                        <li class="info__item">
+                            <a href="#" class="info__link">
+                                Аграрный сектор
+                            </a>
+                        </li>
+                        <li class="info__item">
+                           <a href="#" class="info__link">
+                               Внешнеэкономическая деятельность
+                           </a> 
+                        </li>
+                        <li class="info__item">
+                            <a href="#" class="info__link">
+                                ИT – бизнес
+                            </a>
+                        </li>
+                        <li class="info__item">
+                            <a href="#" class="info__link">
+                                Оптовая и розничная торговля
+                            </a>
+                        </li>
+                        <li class="info__item">
+                            <a href="#" class="info__link">
+                                Сфера услуг
+                            </a>
+                        </li>
+                        <li class="info__item">
+                            <a href="#" class="info__link">
+                                Транспорт и Логистика
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                 <div class="col-12 col-md-6 col-lg-4">
+                    <h4 class="info__title">
+                        Образовательный центр
+                    </h4>
+                    <ul class="info__list">
+                        <li class="info__item">
+                            <a href="#" class="info__link">
+                                Про Образовательный Центр
+                            </a>
+                        </li>
+                        <li class="info__item">
+                           <a href="#" class="info__link">
+                               Бизнес-тренинги, семинары, круглые столы
+                           </a> 
+                        </li>
+                        <li class="info__item">
+                            <a href="#" class="info__link">
+                                Преимущества
+                            </a>
+                        </li>
+                        <li class="info__item">
+                            <a href="#" class="info__link">
+                                Alumni
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                 <div class="col-12 col-md-6 col-lg-4">
+                    <h4 class="info__title">
+                        Соц. предпринимательство
+                    </h4>
+                    <ul class="info__list">
+                        <li class="info__item">
+                            <a href="#" class="info__link">
+                                Социальная миссия
+                            </a>
+                        </li>
+                        <li class="info__item">
+                           <a href="#" class="info__link">
+                               Проекты
+                           </a> 
+                        </li>
+                        <li class="info__item">
+                            <a href="#" class="info__link">
+                                Партнеры 
+                            </a>
+                        </li>
+                        <li class="info__item">
+                            <a href="#" class="info__link">
+                                Консультация эксперта 
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+   <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 col-lg-3 col-xl-4">
+                    <a href="#" class="footer__logo">
+                        <img src="img/logo2.png" alt="LAB Consulting" class="logo__img">
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3">
+                    <p class="footer__text">
+                         Вы хотите сотрудничать с нами?<br> 
+                         У Вас есть идеи или предложения? 
+                         Свяжитесь с нами прямо сейчас!
+                    </p>
+                    <div class="footer__address">
+                        65000,<br>
+                        Украина, г. Одесса
+                        Ул Базарная, 36
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 col-xl-2">
+                    <a href="#header" class="training d-flex">
+                        <div class="training__letter">
+                            W
+                        </div>
+                        <div class="training__text">
+                            <p class="training__top">
+                                Дизайн и разработка
+                            </p>
+                            <p class="training__bottom ">
+                                КОУЧИНГ ПО ВЕРСТКЕ
+                            </p>
+                        </div>
+                    </a>
+                    <div class="link">
+                        <p class="link__item">
+                            &copy; Все права защищены
+                        </p>
+                        <p class="link__item link__item_name">
+                            LAB Consulting
+                        </p>
+                        <a href="https://lab-consult.com" class="link__item link__item_lab">
+                            lab-consult.com
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 d-block d-md-none d-lg-block col-lg-2 ml-auto">
+                    <button class="footer__btn btn btn-bell">
+                      <i class="fa fa-phone"></i>
+                       Заказать звонок
+                   </button>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div style="display: none;">
+        <div class="box-modal" id="exampleModal">
+            <div class="box-modal_close arcticmodal-close">&#10006;</div>
+            <form action="#" class="form">
+                    <h3 class="form__title">
+                        Заказать обратный звонок
+                    </h3>
+                    <p class="form__text">
+                        Заполните форму и мы свяжемся с вами как можно скорее. До скорой встречи
+                    </p>
+                     <input type="text" placeholder="Имя" name="name" required>
+                     <input type="email" placeholder="E-mail" name="email" required>
+                     <input type="tel" placeholder="Телефон" name="phone" required>
+                     <button type="submit" class="form__btn btn">
+                        <i class="fa fa-phone"></i>
+                         Заказать звонок
+                     </button>
+                  </form>
+        </div>
+     </div>
+     <script src="js/jquery-3.3.1.min.js"></script>
+     <script src="js/jquery.arcticmodal-0.3.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
